@@ -20,6 +20,9 @@ This repo demonstrates **end-to-end ML workflows**: preprocessing, training, eva
 ```plaintext
 CodeAlpha_DiseasePrediction/
 │
+├── data/ #preprocessed dataset for heart
+│   ├── processed.cleaveland.data
+│
 ├── models/                      
 │   ├── breast_features.pkl
 │   ├── breast_model.pkl   
@@ -68,18 +71,18 @@ streamlit run app.py
 
 
 ## Usage
-Open the Streamlit app in browser
-Select Disease Type (Diabetes / Heart Disease / Breast Cancer)
-Enter patient medical details.
-View the prediction (Positive / Negative).
+Open the Streamlit app in browser.<br>
+Select Disease Type (Diabetes / Heart Disease / Breast Cancer).<br>
+Enter patient medical details.<br>
+View the prediction (Positive / Negative).<br>
 
 
 ## Tech Stack
-Python 3.10
-Data Handling: Pandas, NumPy
-ML Models: Scikit-learn, XGBoost
-Visualization: Matplotlib, Seaborn
-Web App: Streamlit
+Python 3.10<br>
+Data Handling: Pandas, NumPy<br>
+ML Models: Scikit-learn, XGBoost<br>
+Visualization: Matplotlib, Seaborn<br>
+Web App: Streamlit<br>
 
 
 ## **Author**<br>
