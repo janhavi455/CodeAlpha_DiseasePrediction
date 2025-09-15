@@ -18,7 +18,7 @@ This repo demonstrates **end-to-end ML workflows**: preprocessing, training, eva
 
 ## 🗂 Repository Structure
 ```plaintext
-CodeAlpha_Credit_Worthiness_Prediction/
+CodeAlpha_DiseasePrediction/
 │
 ├── models/                      
 │   ├── breast_features.pkl
@@ -36,6 +36,7 @@ CodeAlpha_Credit_Worthiness_Prediction/
 │   ├── data_prep_diabetes.ipynb
 │   ├── data_heart.ipynb
 │   ├── data_prediction.ipynb
+│
 ├── app.py                       # Streamlit app for frontend
 ├── requirements.txt
 ├── README.md
